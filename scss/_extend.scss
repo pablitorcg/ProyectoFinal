@@ -1,0 +1,23 @@
+.boton{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: wheat;
+    border: 1px solid black;
+}
+
+
+.boton-aceptar{
+    @extend .boton;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.boton-cancelar{
+    @extend .boton;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
