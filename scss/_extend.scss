@@ -8,14 +8,14 @@
 }
 
 
-.boton-aceptar{
+.boton-enviar{
     @extend .boton;
     background-color: green;
     color: white;
     border: 1px solid green;
 }
 
-.boton-cancelar{
+.boton-reset{
     @extend .boton;
     background-color: red;
     color: white;

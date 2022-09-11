@@ -67,7 +67,7 @@ div.encabezado {
   text-align: center;
   font-size: 35px; }
 
-.boton, .boton-aceptar, .boton-cancelar {
+.boton, .boton-enviar, .boton-reset {
   width: 100px;
   height: 40px;
   font-size: 20px;
@@ -75,12 +75,12 @@ div.encabezado {
   background-color: wheat;
   border: 1px solid black; }
 
-.boton-aceptar {
+.boton-enviar {
   background-color: green;
   color: white;
   border: 1px solid green; }
 
-.boton-cancelar {
+.boton-reset {
   background-color: red;
   color: white;
   border: 1px solid red; }

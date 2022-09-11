@@ -23,3 +23,9 @@ div.encabezado{
     text-align: map-get($estilos,centro);
     font-size:map-get($estilos,tFuente);
 }
+
+$coloresFondo: (
+        fondo1: #6d8c9a,
+        fondo2:  lightblue,
+        fondo3: pink
+); 
