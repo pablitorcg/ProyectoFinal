@@ -41,6 +41,9 @@ main .row {
   display: flex;
   justify-content: center; }
 
+main .card {
+  width: 350px; }
+
 @media only screen and (min-width: 360px) {
   .card {
     margin: 20px; }
