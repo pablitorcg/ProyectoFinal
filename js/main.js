@@ -90,3 +90,19 @@ const IndumentariaPromo = [
 let valorBuscado = "Pollera"
 const busqueda = IndumentariaPromo.find(IndumentariaPromo => IndumentariaPromo.nombre === valorBuscado)
 console.log(busqueda)
+
+// formulario de inicio de secion
+
+const username = document.getElementById('username')
+const password = document.getElementById('password')
+const button = document.getElementById('button')
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+    const data = {
+        username: username.value,
+        password: password.value
+    }
+
+    console.log(data)
+})
